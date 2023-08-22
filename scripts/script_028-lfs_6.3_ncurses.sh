@@ -1,5 +1,7 @@
 #!/bin/bash
 set -o xtrace
+cd $LFS/sources
+tar xvf ncurses-6.4.tar.gz
 cd  $LFS/sources/ncurses-6.4
 sed -i s/mawk// configure
 mkdir build

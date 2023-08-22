@@ -1,6 +1,6 @@
 #!/bin/bash
 set -o xtrace
-chroot "$LFS" /usr/bin/env -i   \
+sudo chroot "$LFS" /usr/bin/env -i   \
     HOME=/root                  \
     TERM="$TERM"                \
     PS1='(lfs chroot) \u:\w\$ ' \

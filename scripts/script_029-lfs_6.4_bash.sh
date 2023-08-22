@@ -1,5 +1,7 @@
 #!/bin/bash
 set -o xtrace
+cd $LFS/sources
+tar xvf bash-5.2.15.tar.gz
 cd  $LFS/sources/bash-5.2.15
 ./configure --prefix=/usr                      \
             --build=$(sh support/config.guess) \

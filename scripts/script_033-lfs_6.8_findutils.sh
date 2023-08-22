@@ -1,5 +1,7 @@
 #!/bin/bash
 set -o xtrace
+cd $LFS/sources
+tar xvf findutils-4.9.0.tar.xz
 cd  $LFS/sources/findutils-4.9.0
 ./configure --prefix=/usr                   \
             --localstatedir=/var/lib/locate \

@@ -1,5 +1,7 @@
 #!/bin/bash
 set -o xtrace
+cd $LFS/sources
+tar xvf make-4.4.tar.gz
 cd  $LFS/sources/make-4.4
 sed -e '/ifdef SIGPIPE/,+2 d' \
     -e '/undef  FATAL_SIG/i FATAL_SIG (SIGPIPE);' \

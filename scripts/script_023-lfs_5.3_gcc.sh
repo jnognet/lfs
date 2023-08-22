@@ -1,5 +1,7 @@
 #!/bin/bash
 set -o xtrace
+cd $LFS/sources
+tar xvf gcc-12.2.0.tar.xz
 cd $LFS/sources/gcc-12.2.0
 tar -xf ../mpfr-4.2.0.tar.xz
 mv -v mpfr-4.2.0 mpfr

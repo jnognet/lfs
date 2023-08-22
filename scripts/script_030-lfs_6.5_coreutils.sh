@@ -1,5 +1,7 @@
 #!/bin/bash
 set -o xtrace
+cd $LFS/sources
+tar xvf coreutils-9.1.tar.xz
 cd  $LFS/sources/coreutils-9.1
 ./configure --prefix=/usr                     \
             --host=$LFS_TGT                   \

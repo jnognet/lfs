@@ -1,5 +1,7 @@
 #!/bin/bash
 set -o xtrace
+cd $LFS/sources
+tar xvf binutils-2.40.tar.xz
 cd $LFS/sources/binutils-2.40
 mkdir -v build
 cd       build

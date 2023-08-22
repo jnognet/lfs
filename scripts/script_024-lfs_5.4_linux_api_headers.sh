@@ -1,5 +1,7 @@
 #!/bin/bash
 set -o xtrace
+cd $LFS/sources
+tar xvf linux-6.1.11.tar.xz
 cd $LFS/sources/linux-6.1.11
 make mrproper
 make headers

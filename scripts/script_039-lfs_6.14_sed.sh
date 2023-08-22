@@ -1,5 +1,7 @@
 #!/bin/bash
 set -o xtrace
+cd $LFS/sources
+tar xvf sed-4.9.tar.xz
 cd  $LFS/sources/sed-4.9
 ./configure --prefix=/usr   \
             --host=$LFS_TGT

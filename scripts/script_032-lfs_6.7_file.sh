@@ -1,5 +1,7 @@
 #!/bin/bash
 set -o xtrace
+cd $LFS/sources
+tar xvf file-5.44.tar.gz
 cd  $LFS/sources/file-5.44
 mkdir build
 pushd build
