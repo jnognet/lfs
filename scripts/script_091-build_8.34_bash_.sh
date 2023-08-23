@@ -13,6 +13,6 @@ make
 
 make install
 
-exec /usr/bin/bash --login
-
 rm -rf /sources/bash-5.2.15
+
+exec /usr/bin/bash --login
