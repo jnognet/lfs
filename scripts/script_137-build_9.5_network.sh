@@ -2,9 +2,9 @@
 set -o xtrace
 
 cd /etc/sysconfig/
-cat > ifconfig.eth0 << "EOF"
+cat > ifconfig.enp0s3 << "EOF"
 ONBOOT=yes
-IFACE=eth0
+IFACE=enp0s3
 BOOTPROTO=dhcp
 EOF
 
