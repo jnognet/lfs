@@ -2,7 +2,7 @@
 set -o xtrace
 cd $LFS/sources
 tar xvf tcl8.6.13-src.tar.gz
-cd /sources/tcl8.6.13-src
+cd /sources/tcl8.6.13
 
 SRCDIR=$(pwd)
 cd unix
@@ -43,6 +43,6 @@ mv /usr/share/man/man3/{Thread,Tcl_Thread}.3
 cd ..
 tar -xf ../tcl8.6.13-html.tar.gz --strip-components=1
 mkdir -v -p /usr/share/doc/tcl-8.6.13
-cp -v -r  ./html/* /usr/share/doc/tcl-8.6.1
+cp -v -r  ./html/* /usr/share/doc/tcl-8.6.13
 
-rm -rf /sources/tcl8.6.13-src
+rm -rf /sources/tcl8.6.13
