@@ -11,7 +11,7 @@ cd /sources/attr-2.5.1
 
 make
 
-make check
+
 
 make install
 

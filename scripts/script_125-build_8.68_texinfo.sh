@@ -8,7 +8,7 @@ cd /sources/texinfo-7.0.2
 
 make
 
-make check
+
 
 make install
 

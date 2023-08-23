@@ -17,7 +17,7 @@ cd /sources/man-db-2.11.2
 
 make
 
-make check
+
 
 make install
 

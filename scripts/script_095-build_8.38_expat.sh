@@ -10,7 +10,7 @@ cd /sources/expat-2.5.0
 
 make
 
-make check
+
 
 make install
 

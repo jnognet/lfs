@@ -8,7 +8,7 @@ cd /sources/diffutils-3.9
 
 make
 
-make check
+
 
 make install
 

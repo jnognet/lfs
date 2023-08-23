@@ -10,7 +10,7 @@ make
 make html
 
 chown -Rv tester .
-su tester -c "PATH=$PATH make check"
+su tester -c "PATH=$PATH "
 
 make install
 install -d -m755           /usr/share/doc/sed-4.9

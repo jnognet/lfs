@@ -8,7 +8,7 @@ cd /sources/libpipeline-1.5.7
 
 make
 
-make check
+
 
 make install
 

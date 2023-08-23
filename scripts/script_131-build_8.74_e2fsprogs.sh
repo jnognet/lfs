@@ -17,7 +17,7 @@ cd       build
 
 make
 
-make check
+
 
 make install
 

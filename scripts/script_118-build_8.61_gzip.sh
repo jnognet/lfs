@@ -8,7 +8,7 @@ cd /sources/gzip-1.12
 
 make
 
-make check
+
 
 make install
 

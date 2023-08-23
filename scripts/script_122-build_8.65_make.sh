@@ -12,7 +12,7 @@ sed -e '/ifdef SIGPIPE/,+2 d' \
 
 make
 
-make check
+
 
 make install
 

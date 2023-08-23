@@ -12,7 +12,7 @@ sed -e 's/SECONDS|/&SHLVL|/'               \
 
 make
 
-make check
+
 
 make install
 

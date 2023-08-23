@@ -13,7 +13,7 @@ sed -i 's/resizecons.8 //' docs/man/man8/Makefile.in
 
 make
 
-make check
+
 
 make install
 

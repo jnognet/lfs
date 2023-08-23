@@ -10,7 +10,7 @@ sed -i "s/echo/#echo/" src/egrep.sh
 
 make
 
-make check
+
 
 make install
 

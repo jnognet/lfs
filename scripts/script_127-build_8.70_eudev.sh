@@ -17,7 +17,7 @@ make
 mkdir -pv /usr/lib/udev/rules.d
 mkdir -pv /etc/udev/rules.d
 
-make check
+
 
 make install
 

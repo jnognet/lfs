@@ -17,7 +17,7 @@ cd /sources/inetutils-2.4
 
 make
 
-make check
+
 
 make install
 

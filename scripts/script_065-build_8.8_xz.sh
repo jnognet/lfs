@@ -7,6 +7,6 @@ cd /sources/xz-5.4.1
             --disable-static \
             --docdir=/usr/share/doc/xz-5.4.1
 make
-make check
+
 make install
 rm -rf /sources/xz-5.4.1

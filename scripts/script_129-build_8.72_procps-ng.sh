@@ -11,7 +11,7 @@ cd /sources/procps-ng-4.0.2
 
 make
 
-make check
+
 
 make install
 

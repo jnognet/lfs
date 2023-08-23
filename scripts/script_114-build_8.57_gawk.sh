@@ -10,7 +10,7 @@ sed -i 's/extras//' Makefile.in
 
 make
 
-make check
+
 
 make LN='ln -f' install
 

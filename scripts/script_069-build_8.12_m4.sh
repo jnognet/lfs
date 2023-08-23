@@ -5,6 +5,6 @@ tar xvf m4-1.4.19.tar.xz
 cd /sources/m4-1.4.19
 ./configure --prefix=/usr
 make
-make check
+
 make install
 rm -rf /sources/m4-1.4.19

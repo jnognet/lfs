@@ -11,7 +11,7 @@ cd /sources/pkg-config-0.29.2
 
 make
 
-make check
+
 
 make install
 

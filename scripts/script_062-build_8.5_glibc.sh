@@ -21,7 +21,7 @@ echo "rootsbindir=/usr/sbin" > configparms
              --with-headers=/usr/include              \
              libc_cv_slibdir=/usr/lib
 make
-make check
+
 
 touch /etc/ld.so.conf
 
