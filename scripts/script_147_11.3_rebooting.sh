@@ -1,12 +1,12 @@
 #!/bin/bash
 set -o xtrace
 
-umount -v $LFS/dev/pts
-mountpoint -q $LFS/dev/shm && umount $LFS/dev/shm
-umount -v $LFS/dev
-umount -v $LFS/run
-umount -v $LFS/proc
-umount -v $LFS/sys
+sudo umount -v $LFS/dev/pts
+sudo mountpoint -q $LFS/dev/shm && sudo umount $LFS/dev/shm
+sudo umount -v $LFS/dev
+sudo umount -v $LFS/run
+sudo umount -v $LFS/proc
+sudo umount -v $LFS/sys
 
-umount -v $LFS/boot
-umount -v $LFS
+sudo umount -v $LFS/boot
+sudo umount -v $LFS
