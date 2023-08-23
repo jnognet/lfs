@@ -17,8 +17,6 @@ make
 mkdir -pv /usr/lib/udev/rules.d
 mkdir -pv /etc/udev/rules.d
 
-
-
 make install
 
 tar -xvf ../udev-lfs-20171102.tar.xz

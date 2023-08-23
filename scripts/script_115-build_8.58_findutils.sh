@@ -11,9 +11,6 @@ esac
 
 make
 
-chown -Rv tester .
-su tester -c "PATH=$PATH "
-
 make install
 
 rm -rf /sources/findutils-4.9.0

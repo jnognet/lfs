@@ -12,8 +12,6 @@ sed -e 's/SECONDS|/&SHLVL|/'               \
 
 make
 
-
-
 make install
 
 rm -rf /sources/autoconf-2.71

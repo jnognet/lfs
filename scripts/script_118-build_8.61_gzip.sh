@@ -8,8 +8,6 @@ cd /sources/gzip-1.12
 
 make
 
-
-
 make install
 
 rm -rf /sources/gzip-1.12

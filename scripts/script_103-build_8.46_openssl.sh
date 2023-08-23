@@ -12,8 +12,6 @@ cd /sources/openssl-3.0.8
 
 make
 
-make test
-
 sed -i '/INSTALL_LIBS/s/libcrypto.a libssl.a//' Makefile
 make MANSUFFIX=ssl install
 

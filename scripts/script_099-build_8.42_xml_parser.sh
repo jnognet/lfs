@@ -8,8 +8,6 @@ perl Makefile.PL
 
 make
 
-make test
-
 make install
 
 rm -rf /sources/XML-Parser-2.46

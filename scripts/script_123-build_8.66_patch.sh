@@ -8,8 +8,6 @@ cd /sources/patch-2.7.6
 
 make
 
-
-
 make install
 
 rm -rf /sources/patch-2.7.6

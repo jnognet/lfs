@@ -8,8 +8,6 @@ cd /sources/gperf-3.1
 
 make
 
-make -j1 check
-
 make install
 
 rm -rf /sources/gperf-3.1

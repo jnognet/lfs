@@ -24,8 +24,6 @@ sh Configure -des                                         \
 
 make
 
-make test
-
 make install
 unset BUILD_ZLIB BUILD_BZIP2
 

@@ -11,8 +11,6 @@ cd /sources/procps-ng-4.0.2
 
 make
 
-
-
 make install
 
 rm -rf /sources/procps-ng-4.0.2

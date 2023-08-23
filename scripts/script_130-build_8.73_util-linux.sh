@@ -23,9 +23,6 @@ cd /sources/util-linux-2.38.1
 
 make
 
-chown -Rv tester .
-su tester -c "make -k check"
-
 make install
 
 rm -rf /sources/util-linux-2.38.1

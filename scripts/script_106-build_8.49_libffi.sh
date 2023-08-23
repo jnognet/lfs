@@ -10,8 +10,6 @@ cd /sources/libffi-3.4.4
 
 make
 
-
-
 make install
 
 rm -rf /sources/libffi-3.4.4

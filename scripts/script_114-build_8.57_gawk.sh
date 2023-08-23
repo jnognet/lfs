@@ -10,8 +10,6 @@ sed -i 's/extras//' Makefile.in
 
 make
 
-
-
 make LN='ln -f' install
 
 mkdir -pv                                   /usr/share/doc/gawk-5.2.1

@@ -8,8 +8,6 @@ cd /sources/texinfo-7.0.2
 
 make
 
-
-
 make install
 
 make TEXMF=/usr/share/texmf install-tex

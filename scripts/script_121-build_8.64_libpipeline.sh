@@ -8,8 +8,6 @@ cd /sources/libpipeline-1.5.7
 
 make
 
-
-
 make install
 
 rm -rf /sources/libpipeline-1.5.7

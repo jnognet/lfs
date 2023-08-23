@@ -34,7 +34,7 @@ cd       build
     --disable-libquadmath                          \
     --disable-libssp                               \
     --disable-libvtv                               \
-    --enable-languages=c,c++
+    --enable-languages=c,c++ 
 make
 make DESTDIR=$LFS install
 ln -sv gcc $LFS/usr/bin/cc

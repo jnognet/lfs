@@ -10,8 +10,6 @@ cd /sources/gdbm-1.23
 
 make
 
-
-
 make install
 
 rm -rf /sources/gdbm-1.23

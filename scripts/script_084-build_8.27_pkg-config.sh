@@ -11,8 +11,6 @@ cd /sources/pkg-config-0.29.2
 
 make
 
-
-
 make install
 
 rm -rf /sources/pkg-config-0.29.2

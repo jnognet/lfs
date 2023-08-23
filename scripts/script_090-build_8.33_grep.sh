@@ -10,8 +10,6 @@ sed -i "s/echo/#echo/" src/egrep.sh
 
 make
 
-
-
 make install
 
 rm -rf /sources/grep-3.8

@@ -10,8 +10,6 @@ cd /sources/elfutils-0.188
 
 make
 
-
-
 make -C libelf install
 install -vm644 config/libelf.pc /usr/lib/pkgconfig
 rm /usr/lib/libelf.a

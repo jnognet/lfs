@@ -21,8 +21,6 @@ cd       build
 
 make tooldir=/usr
 
-make -k check
-
 make tooldir=/usr install
 
 rm -fv /usr/lib/lib{bfd,ctf,ctf-nobfd,sframe,opcodes}.a

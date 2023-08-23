@@ -16,8 +16,6 @@ sed -e 's/+01,234,567/+1,234,567 /' \
 make
 make html
 
-
-
 make install
 make install-html
 

@@ -11,8 +11,6 @@ cd /sources/attr-2.5.1
 
 make
 
-
-
 make install
 
 rm -rf /sources/attr-2.5.1

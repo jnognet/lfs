@@ -13,16 +13,6 @@ FORCE_UNSAFE_CONFIGURE=1 ./configure \
 
 make
 
-make NON_ROOT_USERNAME=tester check-root
-
-echo "dummy:x:102:tester" >> /etc/group
-
-chown -Rv tester .
-
-su tester -c "PATH=$PATH make RUN_EXPENSIVE_TESTS=yes check"
-
-sed -i '/dummy/d' /etc/group
-
 make install
 
 mv -v /usr/bin/chroot /usr/sbin

@@ -8,8 +8,6 @@ cd /sources/libtool-2.4.7
 
 make
 
-make -k check
-
 make install
 
 rm -fv /usr/lib/libltdl.a

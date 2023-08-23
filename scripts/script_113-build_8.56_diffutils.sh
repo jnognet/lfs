@@ -8,8 +8,6 @@ cd /sources/diffutils-3.9
 
 make
 
-
-
 make install
 
 rm -rf /sources/diffutils-3.9

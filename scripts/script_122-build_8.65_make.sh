@@ -12,8 +12,6 @@ sed -e '/ifdef SIGPIPE/,+2 d' \
 
 make
 
-
-
 make install
 
 rm -rf /sources/make-4.4

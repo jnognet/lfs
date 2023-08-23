@@ -8,8 +8,6 @@ cd /sources/check-0.15.2
 
 make
 
-
-
 make docdir=/usr/share/doc/check-0.15.2 install
 
 rm -rf /sources/check-0.15.2

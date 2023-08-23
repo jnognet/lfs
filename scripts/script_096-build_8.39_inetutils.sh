@@ -17,8 +17,6 @@ cd /sources/inetutils-2.4
 
 make
 
-
-
 make install
 
 mv -v /usr/{,s}bin/ifconfig

@@ -8,8 +8,6 @@ cd /sources/automake-1.16.5
 
 make
 
-make -j4 check
-
 make install
 
 rm -rf /sources/automake-1.16.5

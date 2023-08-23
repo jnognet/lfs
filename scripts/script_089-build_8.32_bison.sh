@@ -8,8 +8,6 @@ cd /sources/bison-3.8.2
 
 make
 
-
-
 make install
 
 rm -rf /sources/bison-3.8.2

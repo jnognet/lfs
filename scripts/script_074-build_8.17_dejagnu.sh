@@ -15,6 +15,4 @@ make install
 install -v -dm755  /usr/share/doc/dejagnu-1.6.3
 install -v -m644   doc/dejagnu.{html,txt} /usr/share/doc/dejagnu-1.6.3
 
-
-
 rm -rf /sources/dejagnu-1.6.3
